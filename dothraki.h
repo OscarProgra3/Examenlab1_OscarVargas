@@ -1,6 +1,7 @@
 #ifndef DOTHRAKI_H
 #define DOTHRAKI_H
 #include <string>
+#include <iostream>
 
 class dothraki
 {
@@ -14,7 +15,7 @@ class dothraki
 		int defensa;
 
 	public:
-		dothraki();//constructor
+		dothraki(string ,string ,string ,string ,int ,int);//constructor
 
 		string getNombre();
 		void setNombre(string);
@@ -36,8 +37,6 @@ class dothraki
 		void setDefensa(int);
 
 
-		~dothraki();//destructor
-
-
+	
 };
 #ifndef

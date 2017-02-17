@@ -1,6 +1,7 @@
 #ifndef GUARDIAREAL_H
 #define GUARDIAREAL_H
 #include <string>
+#include <iostream>
 
 class guardiareal
 {
@@ -13,7 +14,7 @@ class guardiareal
 		int defensa;
 
 	public:
-		guardiareal();//constructor
+		guardiareal(string nombre, int edad, string tipos, int ataque, int defensa);//constructor sobrecargado
 
 		string getNombre();
 		void setNombre(string);
@@ -32,7 +33,7 @@ class guardiareal
 		void setDefensa(int);
 
 
-		~guardiareal();//destructor
+		
 
 };
 #ifndef
