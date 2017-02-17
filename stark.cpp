@@ -12,3 +12,12 @@ stark::stark(string jefe,int cantlob,string emblema,string lema,vector <pequefn*
 }
 
 
+void stark::setPequefn(pequefn* pequefn)
+{
+	pequefn.push_back(pequefn);
+}
+
+pequefn* stark::getPequefn(int num)
+{
+	return pequefn.at(num);
+}

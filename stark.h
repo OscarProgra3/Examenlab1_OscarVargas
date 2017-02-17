@@ -22,11 +22,12 @@ class stark
 		 	
 		
 	public:
+
+		void setPequefn(pequefn*);
+		pequefn* getPequefn(int);
 		
 		stark(string ,int ,string ,string ,vector <pequefn*> , string ,int);
 		~stark();
-
-
 
 };
 #endif
