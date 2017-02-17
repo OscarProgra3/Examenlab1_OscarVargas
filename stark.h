@@ -3,6 +3,7 @@
 #include "pequefn.h"
 #include <string>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -14,7 +15,7 @@ class stark
 		int cantlob;
 		string emblema;
 		string lema;
-		vector *<pequefn> pequefn;
+		vector <pequefn*> pequefn;
 		string guerrerov;
 		int cantintegran;
 
@@ -22,8 +23,8 @@ class stark
 		
 	public:
 		
-		stark();
-		
+		stark(string ,int ,string ,string ,vector <pequefn*> , string ,int);
+		~stark();
 
 
 
