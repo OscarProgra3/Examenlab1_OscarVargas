@@ -12,9 +12,9 @@ targaryan::targaryan(string reina, string emblema, string lema, int cantd, vecto
 }
 
 
-void targaryan::setDothraki(dothraki* dothraki)
+void targaryan::setDothraki(dothraki* d)
 {
-	dothraki.push_back(dothraki);
+	dothraki.push_back(d);
 }
 
 dothraki* stark::getDothraki(int num)

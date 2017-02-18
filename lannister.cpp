@@ -1,5 +1,6 @@
 #include <iostream>
 #include "lannister.h"
+using namespace std;
 
 lannister::lannister(string jefe,string emblema,string lema, vector <guardiareal*> guardiareal, double cantdin ,int fuerzam,int cantinte)
 {
@@ -13,9 +14,9 @@ lannister::lannister(string jefe,string emblema,string lema, vector <guardiareal
 }
 
 
-void stark::setPequefn(guardiareal* guardiareal)
+void stark::setPequefn(guardiareal* g)
 {
-	guardiareal.push_back(guardiareal);
+	guardiareal.push_back(g);
 }
 
 guardiareal* stark::getGuardiareal(int num)

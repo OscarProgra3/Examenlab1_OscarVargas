@@ -1,5 +1,7 @@
 #include "pequefn.h"
+#include <string>
 
+using namespace std;
 
 pequefn::pequefn(string nombre, string simbolo, string lema, int cantper, int ataque, int defensa){
 	this->nombre=nombre; 

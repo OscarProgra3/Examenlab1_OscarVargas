@@ -1,4 +1,5 @@
 #include "guardiareal.h"
+using namespace std;
 
 //contructor
 guardiareal::guardiareal(string nombre, int edad, string tipos,int ataque, int defensa)

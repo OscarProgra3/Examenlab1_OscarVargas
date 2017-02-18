@@ -3,6 +3,8 @@
 #include <string>
 #include <iostream>
 
+using namespace std;
+
 class pequefn
 {
 	private:
@@ -15,7 +17,7 @@ class pequefn
 		int defensa;
 
 	public:
-		pequefn(string , string , string , int , int, int);//constructor
+		pequefn(string, string, string, int, int, int);//constructor
 
 		string getNombre();
 		void setNombre(string);
@@ -37,4 +39,4 @@ class pequefn
 		
 
 };
-#ifndef
+#endif

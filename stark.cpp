@@ -1,23 +1,26 @@
 #include <iostream>
 #include "stark.h"
+#include <string>
+using namespace std;
 
-stark::stark(string jefe,int cantlob,string emblema,string lema,vector <pequefn*> pequefn, string guerrerov,int cantintegran)
+stark::stark(string jefe,int cantlob,string emblema,string lema,vector <pequefn*> ejer, string guerrerov,int cantintegran)
 {
 	this->jefe=jefe;
 	this->cantlob=cantlob;
 	this->emblema=emblema;
 	this->lema=lema;
-	this->pequefn=pequefn;
+	this->ejer=ejer;
+	this->guerrerov=guerrerov;
 	this->cantintegran=cantintegran;
 }
 
 
-void stark::setPequefn(pequefn* pequefn)
+void stark::setEjer(pequefn* e)
 {
-	pequefn.push_back(pequefn);
+	ejer.push_back(e);
 }
 
-pequefn* stark::getPequefn(int num)
+pequefn* stark::getEjer(int num)
 {
-	return pequefn.at(num);
+	return ejer.at(num);
 }

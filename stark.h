@@ -1,5 +1,6 @@
 #ifndef STARK_H
 #define STARK_H
+
 #include "pequefn.h"
 #include <string>
 #include <vector>
@@ -15,18 +16,19 @@ class stark
 		int cantlob;
 		string emblema;
 		string lema;
-		vector <pequefn*> pequefn;
+		vector <pequefn*> ejer;
 		string guerrerov;
 		int cantintegran;
 
 		 	
 		
 	public:
-
-		void setPequefn(pequefn*);
-		pequefn* getPequefn(int);
-		
 		stark(string ,int ,string ,string ,vector <pequefn*> , string ,int);
+
+		void setEjer(pequefn*);
+		pequefn* getEjer(int);
+		
+		
 		~stark();
 
 };
