@@ -16,17 +16,16 @@ class targaryan
 		string emblema;
 		string lema;
 		int cantd;
-		vector <dothraki*> dothraki;
+		vector <dothraki*> doth;
 		int cantibar;
 
 		 	
-		
 	public:
 
 		void setDothraki(dothraki*);
 		dothraki* getDothraki(int);
 		
-		targaryan(string ,string ,string, int, vector <dothraki*>, int);
+		targaryan(string, string, string, int, vector <dothraki*>, int);
 		~targaryan();
 
 };

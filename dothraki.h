@@ -1,7 +1,10 @@
 #ifndef DOTHRAKI_H
 #define DOTHRAKI_H
+
 #include <string>
 #include <iostream>
+
+using namespace std;
 
 class dothraki
 {
@@ -35,8 +38,6 @@ class dothraki
 
 		int getDefensa();
 		void setDefensa(int);
-
-
 	
 };
-#ifndef
+#endif

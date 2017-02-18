@@ -1,5 +1,10 @@
 #include "dothraki.h"
 
+#include <iostream>
+#include <string>
+
+using namespace std;
+
 dothraki::dothraki(string nombre, string jefeb, string nomca, string colorca, int ataque, int defensa)
 {
 	this-> nombre=nombre;
@@ -12,66 +17,66 @@ dothraki::dothraki(string nombre, string jefeb, string nomca, string colorca, in
 }
 
 
-string pequefn::getNombre()
+string dothraki::getNombre()
 {
 	return nombre;
 }
 
-void pequefn::setNombre(string nombre)
+void dothraki::setNombre(string nombre)
 {
 	this->nombre=nombre;
 }
 
 
-string pequefn::getJefeb()
+string dothraki::getJefeb()
 {
 	return jefeb;
 }
 
-void pequefn::setJefeb(string jefeb)
+void dothraki::setJefeb(string jefeb)
 {
 	this->jefeb=jefeb;
 }
 
 
-string pequefn::getNomca()
+string dothraki::getNomca()
 {
 	return nomca;
 }
 
-void pequefn::setNomca(string nomca)
+void dothraki::setNomca(string nomca)
 {
 	this->nomca=nomca;
 }
 
 
-string pequefn::getColorca()
+string dothraki::getColorca()
 {
 	return colorca;
 }
 
-void pequefn::setColorca(string colorca)
+void dothraki::setColorca(string colorca)
 {
 	this->colorca=colorca;
 }
 
-int pequefn::getAtaque()
+int dothraki::getAtaque()
 {
 	return ataque;
 }
 
-void pequefn::setAtaque(int ataque)
+void dothraki::setAtaque(int ataque)
 {
 	this->ataque=ataque;
 }
 
 
-int pequefn::getDefensa()
+int dothraki::getDefensa()
 {
 	return defensa;
 }
 
-void pequefn::setDefensa(int defensa)
+void dothraki::setDefensa(int defensa)
 {
 	this->defensa=defensa;
 }
