@@ -2,24 +2,24 @@
 #include "lannister.h"
 using namespace std;
 
-lannister::lannister(string jefe,string emblema,string lema, vector <guardiareal*> guardiareal, double cantdin ,int fuerzam,int cantinte)
+lannister::lannister(string jefe, string animal, string lema, vector <guardiareal*> guardia, double cantdin ,int fuerzam,int cantinte)
 {
 	this->jefe=jefe;
-	this->emblema=emblema;
+	this->animal=animal; 
 	this->lema=lema;
-	this->guardiareal=guardiareal;
+	this->guardia=guardia;
 	this->cantdin=cantdin;
 	this->fuerzam=fuerzam;
 	this->cantinte=cantinte;
 }
 
 
-void stark::setPequefn(guardiareal* g)
+void lannister::setGuardiareal(guardiareal* g)
 {
-	guardiareal.push_back(g);
+	guardia.push_back(g);
 }
 
-guardiareal* stark::getGuardiareal(int num)
+guardiareal* lannister::getGuardiareal(int num)
 {
-	return guardiareal.at(num);
+	return guardia.at(num);
 }

@@ -1,5 +1,6 @@
 #ifndef TARGARYAN_H
 #define TARGARYAN_H
+
 #include "dothraki.h"
 #include <string>
 #include <vector>

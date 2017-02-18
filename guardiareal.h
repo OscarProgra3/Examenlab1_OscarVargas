@@ -1,5 +1,6 @@
 #ifndef GUARDIAREAL_H
 #define GUARDIAREAL_H
+
 #include <string>
 #include <iostream>
 
@@ -38,4 +39,4 @@ class guardiareal
 		
 
 };
-#ifndef
+#endif
